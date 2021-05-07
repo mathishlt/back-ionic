@@ -32,7 +32,7 @@ class User
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $email;
+    private $mail;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -40,14 +40,14 @@ class User
     private $password;
 
     /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $age;
-
-    /**
      * @ORM\Column(type="date")
      */
     private $birthdate;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $taille;
 
     /**
      * @ORM\Column(type="float")
@@ -55,9 +55,14 @@ class User
     private $poids;
 
     /**
-     * @ORM\Column(type="float")
+     * @ORM\Column(type="boolean")
      */
-    private $taille;
+    private $cigarette;
+
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    private $alcool;
 
     /**
      * @ORM\Column(type="boolean")
@@ -93,14 +98,14 @@ class User
         return $this;
     }
 
-    public function getEmail(): ?string
+    public function getMail(): ?string
     {
-        return $this->email;
+        return $this->mail;
     }
 
-    public function setEmail(string $email): self
+    public function setMail(string $mail): self
     {
-        $this->email = $email;
+        $this->mail = $mail;
 
         return $this;
     }
@@ -117,18 +122,6 @@ class User
         return $this;
     }
 
-    public function getAge(): ?string
-    {
-        return $this->age;
-    }
-
-    public function setAge(string $age): self
-    {
-        $this->age = $age;
-
-        return $this;
-    }
-
     public function getBirthdate(): ?\DateTimeInterface
     {
         return $this->birthdate;
@@ -137,6 +130,18 @@ class User
     public function setBirthdate(\DateTimeInterface $birthdate): self
     {
         $this->birthdate = $birthdate;
+
+        return $this;
+    }
+
+    public function getTaille(): ?int
+    {
+        return $this->taille;
+    }
+
+    public function setTaille(int $taille): self
+    {
+        $this->taille = $taille;
 
         return $this;
     }
@@ -153,14 +158,26 @@ class User
         return $this;
     }
 
-    public function getTaille(): ?float
+    public function getCigarette(): ?bool
     {
-        return $this->taille;
+        return $this->cigarette;
     }
 
-    public function setTaille(float $taille): self
+    public function setCigarette(bool $cigarette): self
     {
-        $this->taille = $taille;
+        $this->cigarette = $cigarette;
+
+        return $this;
+    }
+
+    public function getAlcool(): ?bool
+    {
+        return $this->alcool;
+    }
+
+    public function setAlcool(bool $alcool): self
+    {
+        $this->alcool = $alcool;
 
         return $this;
     }

@@ -10,8 +10,13 @@
       <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210507085628.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210507092211.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210507092931.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
       <updated>1620296235514</updated>
       <workItem from="1620296236984" duration="4757000" />
       <workItem from="1620308109474" duration="7800000" />
-      <workItem from="1620375838673" duration="3563000" />
+      <workItem from="1620375838673" duration="9899000" />
     </task>
     <servers />
   </component>
