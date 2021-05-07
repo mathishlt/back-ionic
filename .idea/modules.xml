@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/omh-symfony.iml" filepath="$PROJECT_DIR$/.idea/omh-symfony.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/omh-api.iml" filepath="$PROJECT_DIR$/.idea/omh-api.iml" />
     </modules>
   </component>
 </project>
