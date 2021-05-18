@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd205d0b-56b8-4cae-be69-f170fc8cbd39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../api-ecoglass/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../api-ecoglass/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/.idea/ionic-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/.idea/ionic-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ionic-project/ionic/src/app/home/home.page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20210507085628.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20210507092211.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20210507092931.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +37,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="excluded.www.directory" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../omh-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\wamp64\www\ionic-project\ionic\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +59,10 @@
       <updated>1620296235514</updated>
       <workItem from="1620296236984" duration="4757000" />
       <workItem from="1620308109474" duration="7800000" />
-      <workItem from="1620375838673" duration="9899000" />
+      <workItem from="1620375838673" duration="17876000" />
+      <workItem from="1620729549945" duration="1626000" />
+      <workItem from="1621248166078" duration="1120000" />
+      <workItem from="1621335911865" duration="1206000" />
     </task>
     <servers />
   </component>
