@@ -36,10 +36,7 @@ class AppFixtures extends Fixture
             $user->setPassword($this->passwordEncoder->encodePassword($user, 'azerty'));
             $user->setNom("Nom".$i);
             $user->setPrenom("Prenom".$i);
-            $annee = rand(1950, 2002);
-            $mois = rand(01, 12);
-            $jour = rand(01, 31);
-            $user->setBirthdate(new \DateTime($annee.'-'.$mois .'-'.$jour));
+            $user->setBirthdate(new \DateTime('2000-05-12'));
             $user->setTaille(rand(150, 230));
             $user->setPoids(rand(45,150));
             $user->setCigarette(true);
