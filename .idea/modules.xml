@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../artspot/.idea/artspot.iml" filepath="$PROJECT_DIR$/../artspot/.idea/artspot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../grafikart/.idea/grafikart.iml" filepath="$PROJECT_DIR$/../grafikart/.idea/grafikart.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/omh-api.iml" filepath="$PROJECT_DIR$/.idea/omh-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../front-ionic/omh-ionic/.idea/omh-ionic.iml" filepath="$PROJECT_DIR$/../front-ionic/omh-ionic/.idea/omh-ionic.iml" />
     </modules>
   </component>
 </project>

@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="artspot" />
+    <orderEntry type="module" module-name="omh-ionic" />
+    <orderEntry type="module" module-name="grafikart" />
   </component>
 </module>
